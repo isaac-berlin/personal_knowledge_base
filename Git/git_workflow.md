@@ -20,6 +20,22 @@
   * prefix with your initials
   * for example, if you are working on a feature called "add login", you would name your branch ```ib_add_login```
 
+## Example Initial Setup
+
+```bash
+# clone the repository
+git clone git@github.com:isaac-berlin/personal_knowledge_base.git
+
+# switch to the production branch
+git checkout production
+
+# pull the latest changes
+git pull
+
+# create a new branch
+git checkout -b ib_add_pygame
+```
+
 ## Switching Branches and Merging Production
 
 ```git checkout branch_name``` - switches to an existing branch
@@ -41,6 +57,31 @@ Commit messages should be descriptive and concise. They should also be in the pr
 ```git push -u origin branch_name``` - pushes the changes to the remote repository and sets the upstream branch (only do this the first time you push to a branch)
 
 ```git push``` - pushes the changes to the remote repository (do this after the first time)
+
+## Example Push
+
+```bash
+# switch to production
+git checkout production
+
+# pull the latest changes
+git pull
+
+# switch to your branch
+git checkout ib_add_pygame
+
+# merge production into your branch
+git merge production
+
+# add the changes to the staging area
+git add .
+
+# commit the changes
+git commit -m "add pygame information"
+
+# push the changes (only do this the first time you push to a branch)
+git push -u origin ib_add_pygame
+```
 
 ## Pull Requests
 
