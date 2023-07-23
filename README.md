@@ -29,6 +29,7 @@ These notes are orginized by topic. These topics are each given a directory. Eac
 ├── Git
 │   ├── git_workflow.md
 ├── Python
+├── ├── conda.md
 │   └── venv.md
 └── README.md
 ```
