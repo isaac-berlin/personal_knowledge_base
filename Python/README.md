@@ -13,3 +13,4 @@ Overall, Python is a powerful and flexible programming language that can be used
 ## List of Topics
 
 * [Python virtual environments](venv.md)
+* [Python enviornment and package management with conda](conda.md)
