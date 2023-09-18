@@ -95,4 +95,3 @@ git push -u origin ib_add_pygame
 
 locally - ```git branch -d branch_name```
 
-upstream - github automatically deletes the branch on the remote repository after it is merged
